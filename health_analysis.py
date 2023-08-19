@@ -18,15 +18,19 @@ aboutBob = {
 }
 
 def seniorCitizen(age, disability):
-    if age >= 65 and disability == "yes":
-        eligiblity = "you are eligible to recieve Medicare."
-    elif age >= 65 and disability == "no":
+    eligibility = ""
+    if age >= 65: 
         eligibility = "you are eligible to recieve Medicare."
-    elif age <65 and disability == "yes": 
+    elif disability == "yes":
         eligibility = "you may be eligible to recieve Medicare."
-    else: 
+    else:
         eligibility = "you are not eligibe to recieve Medicare."
     return eligibility 
+
+print(num)
+print(word)
+print(lis)
+print(aboutBob)
 
 citizens = [
 [64,"yes"],
@@ -39,19 +43,7 @@ citizens = [
 for citizen in citizens:
     print('\n')
     print(f'Now reviewing your data: age: {citizen[0]}, disability: {citizen[1]}')
-    
-    """age = citizen[0]
+    age = citizen[0]
     disability = citizen[1]
-    outputFunction = seniorCitizen(age,disability)
-    print(f'According to Medicare: {outputFunction}')
-    print('\n')"""
-
-
-
-
-
-
-
-
-
-
+    print(f'According to Medicare: {seniorCitizen(age,disability)}')
+    print('\n')
