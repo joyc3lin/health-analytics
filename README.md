@@ -6,12 +6,12 @@ There are 4 variables. A number variable named 'num', a string variable named 'w
 
 
 ### expected outputs of variables 
-"""
+```
 100
 pineapples are great
 ['this', 'is', 'a', 'list']
 {'bob': 'the main character', 'age': 66, 'residence': 'apartment', 'jobs': ['dog walker', 'babysitter', 'president'], 'bobs_things': {'phone': 'iphone 14', 'clothes': ['shirt', 'suit', 'shoes', 'a sock'], 'money': 20.23}}
-"""
+```
 
 
 ## function explained 
@@ -35,7 +35,8 @@ citizens = [
 ]
 
 Output: 
-"""
+
+```
 Now reviewing your data: age: 64, disability: yes
 According to Medicare: you may be eligible to recieve Medicare.
 
@@ -63,4 +64,4 @@ According to Medicare: you may be eligible to recieve Medicare.
 Now reviewing your data: age: 65, disability: yes
 According to Medicare: you are eligible to recieve Medicare.
 
-"""
+```
